@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:site_name" content="Arus Aldiyafa">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image" content="assets/img/Yusr+logo.png">
+    <meta property="og:image:width" content="194">
+    <meta property="og:image:height" content="176">
+    <link href="assets/img/logo.png" rel="icon">
+    <meta name="theme-color" content="#CEA54F">
+
+    <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link href="assets/aos/aos.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Arus Aldiyafa</title>
+</head>
+
+<body>
+    <!-- ======= Header ======= -->
+    <header class="fixed-top d-flex align-items-center header-smaller">
+        <div id="header" class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <a href="index.html"><img src="assets/img/logo.png" class="img-fluid"></a>
+            </div>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li><a href="#about">من نكون</a></li>
+                    <li><a href="#vision">الرؤية و الرسالة</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                    <li><a href="#join">انضم إلينا</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <a href="#contact" class="btn btn-primary">
+                    أطلب خدمة لفندقك
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="join-form">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6 col-md-10">
+                        <form class="row">
+                            <div class="col-md-6">
+                                <label for="inputName" class="form-label">الاسم</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="ادخل الاسم">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputNumber" class="form-label">رقم الجوال</label>
+                                <input type="tel" class="form-control" id="inputNumber" placeholder="ادخل  رقم الجوال">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail" class="form-label">البريد الإلكتروني</label>
+                                <input type="email" class="form-control" id="inputEmail"
+                                    placeholder="ادخل البريد الإلكتروني">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="applicant-resume" class="form-label">
+                                    قم برفع سيرتك الذاتية <i class="required"></i>
+                                </label>
+                                <div class="file-upload-warpper">
+                                    <div class="image-upload-wrap">
+                                        <input required="" class="file-upload-input" type="file"
+                                            onchange="readURL(this);" accept=".pdf, .doc , .docx" id="applicant-resume">
+                                        <div class="drag-text">
+                                            <p>تصفح</p>
+                                        </div>
+                                    </div>
+                                    <div class="file-upload-content">
+                                        <div class="remove-image-warpper">
+                                            <span class="image-title"></span>
+                                            <button type="button" onclick="removeUpload()" class="remove-image">
+                                                <i class="fi fi-rr-cross"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    إرسال
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-6 col-md-8">
+                        <div class="side-img">
+                            <img src="assets/img/hotel-stairs.jpg">
+                            <img src="assets/img/hotel-food.jpg">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-12 text-center">
+                    <a href="index.html">
+                        <img src="assets/img/name.png" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-4 col-10 mb-md-0 links">
+                    <ul>
+                        <li><a href="#about">من نكون</a></li>
+                        <li><a href="#vision">الرؤية و الرسالة</a></li>
+                        <li><a href="#services">خدماتنا</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                        <li><a href="#join">انضم إلينا</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-5 col-sm-6 col-10 m-xs-auto mb-4 mb-md-0 social-links">
+                    <h5>تابع أخبارنا</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#"><img src="assets/img/tik-tok.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/facebook-app-symbol.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/twitter.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/instagram.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/whatsapp.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lower-footer">
+        <p> © جميع الحقوق محفوظه ل</p>
+        <a href="http://soft.softwarecloud2.com"> Software Cloud 2</a>
+        <p>2024</p>
+    </div>
+
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
+
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <script src="assets/js/fa-pro.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
